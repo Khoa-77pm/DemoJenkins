@@ -10,6 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class DemoController {
     @GetMapping("/hello")
     public String hello(@RequestParam String name){
+        "make code broken to test jenkin"
         return name + ", welcome to demo jenkins with spring app and maven";
     }
 }
